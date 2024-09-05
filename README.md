@@ -35,8 +35,8 @@ npm install
 ```
 
 ## Usage
-#Writing Tests
+# Writing Tests
 Tests are written in Gherkin syntax and placed in the features directory. Step definitions are implemented in the features/step_definitions directory.
 
-#Running Tests
+# Running Tests
 To run the tests, use the following command:
