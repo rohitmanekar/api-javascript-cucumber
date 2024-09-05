@@ -41,17 +41,18 @@ Tests are written in Gherkin syntax and placed in the features directory. Step d
 ### Running Tests
 To run the tests, use the following command:
 ```bash
-npm run test
+npm run regression OR
+npx cucumber-js
 ```
 
 ## Configuration
-The configuration for the test framework and reporting tools is located in the cucumber.js and extent-config.js files. Adjust these configurations as needed to fit your project's requirements.
+The configuration for the test framework and reporting tools is located in the cucumber.js file. 
 
 ## Reporting
-Test reports are generated using Extent Reports. By default, reports are generated in the reports directory.
+Test reports are generated using Cucumber Reports in html and json formats. The reports are generated in the reports directory.
 
 ### Generating Reports
 To generate reports, run your tests as usual. The report generation is handled automatically after the tests complete.
 
-Contributing
+## Contributing
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request. Ensure that you follow the project's coding standards and include tests for any new features.
