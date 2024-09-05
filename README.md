@@ -32,10 +32,11 @@ To get started, clone the repository and install the necessary dependencies:
 git clone https://github.com/rohitmanekar/api-javascript-cucumber.git
 cd api-javascript-cucumber
 npm install
+```
 
 ## Usage
-Writing Tests
+#Writing Tests
 Tests are written in Gherkin syntax and placed in the features directory. Step definitions are implemented in the features/step_definitions directory.
 
-Running Tests
+#Running Tests
 To run the tests, use the following command:
