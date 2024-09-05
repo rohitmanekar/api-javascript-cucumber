@@ -1,0 +1,21 @@
+{
+  "name": "api-javascript-cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "regression": "npx cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.0",
+    "axios": "^1.7.7",
+    "chai": "^5.1.1",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^6.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
