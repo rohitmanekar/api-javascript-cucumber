@@ -12,6 +12,7 @@ A JavaScript-based API testing framework using Cucumber.js for behavior-driven d
 - [Running Tests](#running-tests)
 - [Reporting](#reporting)
 - [Contributing](#contributing)
+- [Contact](#contact)
 
 ## Project Overview
 
