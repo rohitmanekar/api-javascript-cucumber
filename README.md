@@ -56,3 +56,6 @@ To generate reports, run your tests as usual. The report generation is handled a
 
 ## Contributing
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request. Ensure that you follow the project's coding standards and include tests for any new features.
+
+## Contact
+For any questions or issues, please contact rohitmanekar.work@gmail.com
