@@ -1,3 +1,8 @@
-export default `--import features/step_definitions/*.js 
-                --format json:reports/cucumber_report.json
-                --format html:reports/cucumber_report.html`;
+export default {
+    default: [
+      '--import features/step_definitions/*.js',
+      '--import features/support/*.js',
+      '--format json:reports/cucumber_report.json',
+      '--format html:reports/cucumber_report.html'
+    ]
+  };

@@ -4,7 +4,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "regression": "npx cucumber-js"
+    "regression": "npx cucumber-js --tags \"@Regression\"",
+    "regressionWithRetry": "npx cucumber-js --tags \"@Regression\" --retry 1",
+    "fieldValidations": "npx cucumber-js --tags \"@FieldValidations\"",
+    "errorValidations": "npx cucumber-js --tags \"@ErrorScenarios\"",
+    "parallelScenarios": "npx cucumber-js features/singleDaySchedule.feature --parallel 7",
+    "allScenarios": "npx cucumber-js"
   },
   "keywords": [],
   "author": "",
@@ -14,8 +19,9 @@
     "@cucumber/cucumber": "^11.0.0",
     "axios": "^1.7.7",
     "chai": "^5.1.1",
-    "cucumber": "^6.0.7",
-    "cucumber-html-reporter": "^6.0.0",
-    "dotenv": "^16.4.5"
+    "cucumber-html-reporter": "^6.0.0"
+  },
+  "dependencies": {
+    "winston": "^3.14.2"
   }
 }
