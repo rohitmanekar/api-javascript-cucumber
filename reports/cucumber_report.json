@@ -1,0 +1,389 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "single-day's-schedule-for-channel-and-metadata;scenario-1---verify-response-status-and-response-time",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Scenario 1 - Verify response status and response time",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I have the API endpoint \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6406000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I make a GET request to the endpoint",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 471117100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2070500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the response time should be less than 1000 milliseconds",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 837600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "single-day's-schedule-for-channel-and-metadata;scenario-2---validate-id-and-type-fields",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Scenario 2 - Validate ID and Type fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I have the API endpoint \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 975200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I make a GET request to the endpoint",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109154900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the id field should never be null or empty",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1223800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the type field in episode should always be \"episode\"",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 468100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FieldValidations",
+            "line": 10
+          },
+          {
+            "name": "@Regression",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "single-day's-schedule-for-channel-and-metadata;scenario-3---validate-title-field-in-episode",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Scenario 3 - Validate Title field in episode",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I have the API endpoint \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 724699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I make a GET request to the endpoint",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111433000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the title field in episode should never be null or empty for any schedule item",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1062900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FieldValidations",
+            "line": 17
+          },
+          {
+            "name": "@Regression",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "single-day's-schedule-for-channel-and-metadata;scenario-4---validate-that-only-one-episode-has-live-as-true",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Scenario 4 - Validate that only one episode has live as true",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I have the API endpoint \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 703899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I make a GET request to the endpoint",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108525899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "only one episode in the list should have live as true",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 418100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FieldValidations",
+            "line": 23
+          },
+          {
+            "name": "@Regression",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "single-day's-schedule-for-channel-and-metadata;scenario-5---validate-transmission_start-is-before-transmission_end",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Scenario 5 - Validate transmission_start is before transmission_end",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I have the API endpoint \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 762299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I make a GET request to the endpoint",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112203899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the transmission_start date should be before the transmission_end date",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 592499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FieldValidations",
+            "line": 29
+          },
+          {
+            "name": "@Regression",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "single-day's-schedule-for-channel-and-metadata;scenario-6---validate-date-header-in-response",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Scenario 6 - Validate Date header in response",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "I have the API endpoint \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 417899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I make a GET request to the endpoint",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108944700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "the response headers should contain a Date value",
+            "match": {
+              "location": "file:\\F:\\Job_Applications\\2024_UK\\BBC\\Test\\api-javascript-cucumber\\features\\step_definitions\\singleDaySchedule.steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 313499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FieldValidations",
+            "line": 35
+          },
+          {
+            "name": "@Regression",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "single-day's-schedule-for-channel-and-metadata",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Single Day's schedule for channel and metadata",
+    "tags": [],
+    "uri": "features\\singleDaySchedule.feature"
+  }
+]
