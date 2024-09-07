@@ -22,6 +22,9 @@ This project provides a framework for API testing using JavaScript, Cucumber.js,
 
 - BDD-style API testing with Cucumber.js
 - Cucumber html reports
+- Logging implemented
+- Custom scipts to execute tests of specific category
+- Parallel running of tests supported
 - Assertion library: Chai
 - HTTP requests handled by Axios
 
