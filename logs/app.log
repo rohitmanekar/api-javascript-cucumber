@@ -1,0 +1,100 @@
+2024-09-06T11:36:47.876Z [info]: =========================== STARTING TESTS ===========================
+2024-09-06T11:36:47.886Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:47.889Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:48.387Z [info]: GET request successful
+2024-09-06T11:36:48.388Z [info]: Response time = 499 ms
+2024-09-06T11:36:48.390Z [info]: Verifying status code. Expected: 200, Received: 200
+2024-09-06T11:36:48.391Z [info]: Status code verification complete.
+2024-09-06T11:36:48.392Z [info]: Asserting response time is less than 1000 milliseconds.
+2024-09-06T11:36:48.393Z [info]: Response time is 499 milliseconds.
+2024-09-06T11:36:48.395Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:48.396Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:48.515Z [info]: GET request successful
+2024-09-06T11:36:48.516Z [info]: Response time = 120 ms
+2024-09-06T11:36:48.517Z [info]: Validating that the 'id' field and 'episode.id' field are non-null and non-empty.
+2024-09-06T11:36:48.519Z [info]: Validation complete for 'id' and 'episode.id' fields.
+2024-09-06T11:36:48.519Z [info]: Checking that the 'type' field in the 'episode' object is always episode.
+2024-09-06T11:36:48.520Z [info]: Type field validation complete.
+2024-09-06T11:36:48.521Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:48.522Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:48.630Z [info]: GET request successful
+2024-09-06T11:36:48.630Z [info]: Response time = 108 ms
+2024-09-06T11:36:48.631Z [info]: Ensuring that the 'title' field in the 'episode' object is never null or empty.
+2024-09-06T11:36:48.632Z [info]: Validation complete for 'title' field.
+2024-09-06T11:36:48.633Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:48.634Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:48.737Z [info]: GET request successful
+2024-09-06T11:36:48.738Z [info]: Response time = 104 ms
+2024-09-06T11:36:48.739Z [info]: Validating that exactly one episode in the list has 'live' set to true.
+2024-09-06T11:36:48.739Z [info]: Number of live episodes found: 1
+2024-09-06T11:36:48.740Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:48.740Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:48.845Z [info]: GET request successful
+2024-09-06T11:36:48.846Z [info]: Response time = 106 ms
+2024-09-06T11:36:48.846Z [info]: Verifying that the 'transmission_start' date is before the 'transmission_end' date for each item.
+2024-09-06T11:36:48.847Z [info]: Date validation complete.
+2024-09-06T11:36:48.848Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:48.849Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-06T11:36:48.953Z [info]: GET request successful
+2024-09-06T11:36:48.954Z [info]: Response time = 105 ms
+2024-09-06T11:36:48.955Z [info]: Checking that the response headers contain a 'Date' value.
+2024-09-06T11:36:48.956Z [info]: Date value found in response headers.
+2024-09-06T11:36:48.957Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest/2023-09-11
+2024-09-06T11:36:48.958Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest/2023-09-11
+2024-09-06T11:36:49.062Z [error]: GET request failed with status: 404
+2024-09-06T11:36:49.062Z [info]: Response time = 104 ms
+2024-09-06T11:36:49.063Z [info]: Asserting that the HTTP status code is 404.
+2024-09-06T11:36:49.064Z [info]: HTTP status code is 404.
+2024-09-06T11:36:49.064Z [info]: Validating that the error object contains the 'details' and 'http_response_code' properties.
+2024-09-06T11:36:49.066Z [info]: Error object validation complete.
+2024-09-06T11:36:49.067Z [info]: =========================== TESTS ENDED ===========================
+2024-09-07T20:07:16.990Z [info]: =========================== STARTING TESTS ===========================
+2024-09-07T20:07:16.998Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:17.000Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:17.563Z [info]: GET request successful
+2024-09-07T20:07:17.564Z [info]: Response time = 563 ms
+2024-09-07T20:07:17.565Z [info]: Verifying status code. Expected: 200, Received: 200
+2024-09-07T20:07:17.566Z [info]: Status code verification complete.
+2024-09-07T20:07:17.568Z [info]: Asserting response time is less than 1000 milliseconds.
+2024-09-07T20:07:17.568Z [info]: Response time is 563 milliseconds.
+2024-09-07T20:07:17.569Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:17.570Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:17.694Z [info]: GET request successful
+2024-09-07T20:07:17.694Z [info]: Response time = 124 ms
+2024-09-07T20:07:17.696Z [info]: Validating that the 'id' field and 'episode.id' field are non-null and non-empty.
+2024-09-07T20:07:17.697Z [info]: Validation complete for 'id' and 'episode.id' fields.
+2024-09-07T20:07:17.699Z [info]: Checking that the 'type' field in the 'episode' object is always episode.
+2024-09-07T20:07:17.700Z [info]: Type field validation complete.
+2024-09-07T20:07:17.701Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:17.703Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:17.812Z [info]: GET request successful
+2024-09-07T20:07:17.813Z [info]: Response time = 110 ms
+2024-09-07T20:07:17.815Z [info]: Ensuring that the 'title' field in the 'episode' object is never null or empty.
+2024-09-07T20:07:17.817Z [info]: Validation complete for 'title' field.
+2024-09-07T20:07:17.819Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:17.820Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:17.930Z [info]: GET request successful
+2024-09-07T20:07:17.930Z [info]: Response time = 110 ms
+2024-09-07T20:07:17.931Z [info]: Validating that exactly one episode in the list has 'live' set to true.
+2024-09-07T20:07:17.932Z [info]: Number of live episodes found: 1
+2024-09-07T20:07:17.933Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:17.934Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:18.067Z [info]: GET request successful
+2024-09-07T20:07:18.068Z [info]: Response time = 134 ms
+2024-09-07T20:07:18.069Z [info]: Verifying that the 'transmission_start' date is before the 'transmission_end' date for each item.
+2024-09-07T20:07:18.070Z [info]: Date validation complete.
+2024-09-07T20:07:18.071Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:18.072Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest
+2024-09-07T20:07:18.184Z [info]: GET request successful
+2024-09-07T20:07:18.185Z [info]: Response time = 113 ms
+2024-09-07T20:07:18.187Z [info]: Checking that the response headers contain a 'Date' value.
+2024-09-07T20:07:18.188Z [info]: Date value found in response headers.
+2024-09-07T20:07:18.190Z [info]: Set API endpoint: https://testapi.io/api/RMSTest/ibltest/2023-09-11
+2024-09-07T20:07:18.191Z [info]: Making GET request to: https://testapi.io/api/RMSTest/ibltest/2023-09-11
+2024-09-07T20:07:18.345Z [error]: GET request failed with status: 404
+2024-09-07T20:07:18.345Z [info]: Response time = 154 ms
+2024-09-07T20:07:18.346Z [info]: Asserting that the HTTP status code is 404.
+2024-09-07T20:07:18.346Z [info]: HTTP status code is 404.
+2024-09-07T20:07:18.347Z [info]: Validating that the error object contains the 'details' and 'http_response_code' properties.
+2024-09-07T20:07:18.351Z [info]: Error object validation complete.
+2024-09-07T20:07:18.353Z [info]: =========================== TESTS ENDED ===========================
