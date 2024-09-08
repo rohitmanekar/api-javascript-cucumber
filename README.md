@@ -63,7 +63,7 @@ npm run errorValidations #for running error validation scripts
 npm run allScenarios #for running all scripts
 npm run parallelScenarios #for running all scripts in parallel
 OR
-npx cucumber-js //for running all scenarios without script help
+npx cucumber-js //for running all scenarios without script-help
 ```
 ## Configuration
 The configuration for the test framework and reporting tools is located in the cucumber.js file. 
