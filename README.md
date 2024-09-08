@@ -29,7 +29,7 @@ This project provides a framework for API testing using JavaScript, Cucumber.js,
 - Parallel running of tests supported
 - Useful assertions implemented
 - HTTP requests handled by Axios
-- Maintenance of manual test cases within the framework
+- Maintenance of manual test cases within the framework 
 
 ## Technology stack
 
