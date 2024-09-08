@@ -1,6 +1,6 @@
 # API Automation with JavaScript Cucumber
 
-A JavaScript-based API testing framework using Cucumber.js for behavior-driven development (BDD), integrated with various reporting tools.
+A JavaScript-based API Automation testing framework using Cucumber.js for behavior-driven development (BDD), integrated with various reporting tools.
 
 ## Table of Contents
 
