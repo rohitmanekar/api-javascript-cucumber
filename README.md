@@ -1,6 +1,6 @@
-# API JavaScript Cucumber
+# API Automation with JavaScript Cucumber
 
-A JavaScript-based API testing framework using Cucumber.js for behavior-driven development (BDD), integrated with various reporting tools.
+A JavaScript-based API Automation testing framework using Cucumber.js for behavior-driven development (BDD), integrated with various reporting tools.
 
 ## Table of Contents
 
@@ -29,6 +29,7 @@ This project provides a framework for API testing using JavaScript, Cucumber.js,
 - Parallel running of tests supported
 - Useful assertions implemented
 - HTTP requests handled by Axios
+- Maintenance of manual test cases within the framework 
 
 ## Technology stack
 
@@ -56,8 +57,14 @@ Tests are written in Gherkin syntax and placed in the features directory. Step d
 ### Running Tests
 To run the tests, use the following command:
 ```bash
-npm run regression //for scripts run OR
-npx cucumber-js //for running all scenarios without script
+npm run regression #for running regression scripts
+npm run regressionWithRetry #for running regression scripts with retry mechanism for failed test cases
+npm run fieldValidations #for running field validation scripts
+npm run errorValidations #for running error validation scripts
+npm run allScenarios #for running all scripts
+npm run parallelScenarios #for running all scripts in parallel
+OR
+npx cucumber-js #for running all scenarios without script-help
 ```
 ## Configuration
 The configuration for the test framework and reporting tools is located in the cucumber.js file. 
