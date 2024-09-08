@@ -56,8 +56,14 @@ Tests are written in Gherkin syntax and placed in the features directory. Step d
 ### Running Tests
 To run the tests, use the following command:
 ```bash
-npm run regression //for scripts run OR
-npx cucumber-js //for running all scenarios without script
+npm run regression #for running regression scripts
+regressionWithRetry
+fieldValidations
+errorValidations
+parallelScenarios
+allScenarios
+OR
+npx cucumber-js //for running all scenarios without script help
 ```
 ## Configuration
 The configuration for the test framework and reporting tools is located in the cucumber.js file. 
