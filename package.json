@@ -4,12 +4,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "regression": "npx cucumber-js --tags \"@Regression\"",
-    "regressionWithRetry": "npx cucumber-js --tags \"@Regression\" --retry 1",
-    "fieldValidations": "npx cucumber-js --tags \"@FieldValidations\"",
-    "errorValidations": "npx cucumber-js --tags \"@ErrorScenarios\"",
-    "parallelScenarios": "npx cucumber-js features/singleDaySchedule.feature --parallel 7",
-    "allScenarios": "npx cucumber-js"
+    "regression": "npx cucumber-js --tags \"@regression and not @ignore\"",
+    "regressionWithRetry": "npx cucumber-js --tags \"@regression and not @ignore\" --retry 1",
+    "fieldValidations": "npx cucumber-js --tags \"@fieldValidations and not @ignore\"",
+    "errorValidations": "npx cucumber-js --tags \"@errorScenarios and not @ignore\"",
+    "parallelScenarios": "npx cucumber-js --tags \"not @ignore\" --parallel 7",
+    "allScenarios": "npx cucumber-js --tags \"not @ignore\""
   },
   "keywords": [],
   "author": "",
