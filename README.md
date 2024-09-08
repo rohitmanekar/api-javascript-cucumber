@@ -21,10 +21,10 @@ This project provides a framework for API testing using JavaScript, Cucumber.js,
 
 ## Features
 
-- BDD-style API testing with Cucumber to engage non-technical stakeholders to contribute
+- BDD-style API testing with Cucumber to engage business stakeholders to contribute
 - Cucumber html reports for easy test summary view and supporting json reports for future use with third party reporting libs
 - Logging implemented
-- Custom scipts to execute tests of specific category
+- Custom scripts to execute tests of specific category
 - Provision to execute test cases with retry mechanism for the failed test cases
 - Parallel running of tests supported
 - Useful assertions implemented
