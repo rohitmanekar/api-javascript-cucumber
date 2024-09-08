@@ -11,7 +11,7 @@ Feature: BBC One London Broadcast Schedule
     Scenario: Verify first scheduled program details
         Given the schedule is available
         When I check the first scheduled program
-        Then I should see the title of the program as "Breakfast"
+        Then I should see the title of the program as "Breakfast"           #Assumption: All the programs are returned in a sorted ascending order by the get api
         And the scheduled start time should be "2023-09-11T05:00:00.000Z"
 
     Scenario: Check events recorded for a program
