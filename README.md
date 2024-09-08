@@ -57,11 +57,11 @@ Tests are written in Gherkin syntax and placed in the features directory. Step d
 To run the tests, use the following command:
 ```bash
 npm run regression #for running regression scripts
-regressionWithRetry
-fieldValidations
-errorValidations
-parallelScenarios
-allScenarios
+npm run regressionWithRetry #for running regression scripts with retry mechanism for failed test cases
+npm run fieldValidations #for running field validation scripts
+npm run errorValidations #for running error validation scripts
+npm run allScenarios #for running all scripts
+npm run parallelScenarios #for running all scripts in parallel
 OR
 npx cucumber-js //for running all scenarios without script help
 ```
